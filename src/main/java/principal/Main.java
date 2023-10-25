@@ -11,14 +11,14 @@ public class Main {
 
 
         Cliente cliente1 = new Cliente("Lucas", "199.368.257-06", "lsousaah@gmail.com", "Rua Jose de Alencar");
-        Livro livro1 = new Livro("12345", "Heartstopper Vol1", "Alice Oseman", 12, 69.90);
+        Livro livro1 = new Livro("12345", "Heartstopper Vol 1", "Alice Oseman", 12, 69.90);
         Livro livro2 = new Livro("12344", "Livro Volume 1", "Aquele", 42, 29.90);
 
 
         Pedido pedido1 = cliente1.fazPedido(livro1, 5);
 
 
-
+        System.out.print(pedido1.getLivro().getTitulo());
 
 
 

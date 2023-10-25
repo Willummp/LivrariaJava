@@ -34,8 +34,10 @@ public class Cliente {
     public void setEmail(String email) {
         this.email = email;
     }
-    public void fazPedido(Livro livro, int exemplares){
-        new Pedido(livro, exemplares);
+
+    public Pedido fazPedido(Livro livro, int exemplares){
+        return new Pedido(livro, exemplares);
+
     }
 
 

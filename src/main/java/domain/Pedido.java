@@ -14,5 +14,7 @@ public class Pedido {
 
     }
 
-
+    public Livro getLivro() {
+        return livro;
+    }
 }
